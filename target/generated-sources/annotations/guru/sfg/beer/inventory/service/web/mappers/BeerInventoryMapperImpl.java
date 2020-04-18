@@ -4,14 +4,14 @@ import guru.sfg.beer.inventory.service.domain.BeerInventory;
 import guru.sfg.beer.inventory.service.domain.BeerInventory.BeerInventoryBuilder;
 import guru.sfg.beer.inventory.service.web.model.BeerInventoryDto;
 import guru.sfg.beer.inventory.service.web.model.BeerInventoryDto.BeerInventoryDtoBuilder;
-import javax.annotation.processing.Generated;
+import javax.annotation.Generated;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2020-04-14T15:59:57+0200",
-    comments = "version: 1.3.0.Final, compiler: javac, environment: Java 14 (Oracle Corporation)"
+    date = "2020-04-18T15:05:14+0200",
+    comments = "version: 1.3.0.Final, compiler: javac, environment: Java 11.0.2 (Oracle Corporation)"
 )
 @Component
 public class BeerInventoryMapperImpl implements BeerInventoryMapper {
